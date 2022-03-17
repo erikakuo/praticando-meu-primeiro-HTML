@@ -1,0 +1,53 @@
+body{
+    /*background-color: rgb(77, 77, 170); /*background-color cor de texto e color: é cor de texto*/
+    background: linear-gradient( red, blue, black, pink, yellow, green);
+    
+}
+li{
+    background-color: white;
+    display: inline-flexbox; /*o display organiza a linha do menu*/
+    padding: 10px 5px; /*é tipo um espaçamento entre os "li"*/
+    margin: 5px; /*separa as linhas do menu*/
+    border-radius: 20px; /*deixa as bordas arredonddas*/
+    width: 10%; /*diminui a largura ou aumenta a largura da lista*/
+    height: 15px;/*altura*/
+    cursor: pointer; /*muda o ponteiro em links*/
+    text-align: center; /*centralizar o texto*/
+    border-left: 5px solid rgb(255, 123, 0); /*coloca cor na borda lado esquerdo*/
+    border-right: 5px solid rgb(255, 123, 0); /*coloca cor na borda lado direito*/
+    font-weight: bold; /*deixar em negrito*/
+    font-style: italic; /*deixar em italico*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*escolhe a fonte*/
+    text-transform: uppercase; /*deixar em maiusculo*/
+    list-style: none; /*retira a bolinha do topico*/
+    text-decoration: none;/*retira o sublinhado do link*/
+    }
+
+    .centralizar{
+        display: flex; /*para centralizar usa tudo isso ai debaixo*/
+        flex-flow: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+    .centralizar img{ /*diminui a largura ou aumenta a largura da imagem*/
+
+        width: 35%; /*diminui a largura ou aumenta a largura da lista*/
+        height: 30em;/*altura*/
+    }
+
+    .descricao{
+
+        font-size: 30px;
+    }
+    
+    p  {
+        color: black ;
+        font-size: 25px; /*aumenta ou diminui tamanho da letra*/
+
+    }
+    .subtitulo, #titulo {
+        color:  white;
+
+    } /* puxa a classe do index*/

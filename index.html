@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title> <!--é o titulo da pagina -->
-
+<link rel="stylesheet" href="style.css">  <!--link leva até a pagina selecionada -->
 </head>
 <body> <!-- é o corpo da pagina-->
+
 
 <nav> <!-- cria um menu-->
 
@@ -23,11 +24,11 @@
 </nav>
 
 
-    <h1> <!-- titulo para um conteudo dentro da pagina-->
+    <h1 id="titulo"> <!-- titulo para um conteudo dentro da pagina que vai de H1 a H6-->
         Bem vido ao meu perfil!!!
     </h1>
     
-    <h2>Meu video preferido no momento!</h2>
+    <h2 class="subtitulo">Meu video preferido no momento!</h2> <!-- class é uma classe para puxar em algum lugar-->
 
     <iframe width="560" 
     height="315" 
@@ -39,12 +40,17 @@
     </iframe>
         
     
-
+    <div class="centralizar"> 
+    <!-- div separa o bloco-->
+    <div>
+   <h3 class="descricao">Sobre mim</h3>
     <p>Olá, me chamo Erika, tenho 29 anos e moro no litoral de SP. <br>  <!-- quebra de linha--> Gosto de cozinhar e comer também, ir a praia e ler um bom livro. 
         <br>Caso queira entrar com contato comigo, clique no menu inicial na parte superior "Contato". </p> <!-- organiza o texto-->
-        <img src="assets/img/foto eu.jpg" alt="Foto da criadora do conteúdo"> <!-- inserir uma imagem src é o caminho da imagem e alt é layout da imagem-->
+    </div>
+        <img src="assets/img/foto eu.jpg" 
+        alt="Foto da criadora do conteúdo"> <!-- inserir uma imagem src é o caminho da imagem e alt é layout da imagem-->
    
-
+    </div>
 
     
 </body>
