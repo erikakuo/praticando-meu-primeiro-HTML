@@ -25,17 +25,22 @@
     <h1>Contato</h1>
     <form action="">
         <label for="nome">Nome</label>
-        <input type="text" id="nome">
+        <input type="text" id="nome" onkeyup="validarNome()" placeholder="Digite seu nome" name="nome">
+        <!-- onkeyup é basicamente chamar a funcao no contato.html-->
+        <!-- place holder aparece no campo insira seu dado-->
+        <p id="txtNome"></p>
         <br>
         <label for="email">E-mail</label>
-        <input type="email" id="email">
+        <input type="email" id="email" placeholder="Digite seu e-mail">
+        <br>
         <br>
         <label for="assunto">Assunto</label></br>
         <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea> </textarea>
+        <input type="submit" onclick="Enviar()" value="Enviar">
         <br>
         <br>
-        <button>Enviar</button>
     </form>
-    
+
+    <script src="assets/js/script.js"> </script> <!-- busca o script-->
 </body>
 </html>
